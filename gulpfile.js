@@ -13,7 +13,7 @@ function copy() {
         'app/**/*.jpg',
         'app/**/*.png',
         'app/**/*.json',
-        // './service-worker.js'
+        './service-worker.js'
     ])
         .pipe(gulp.dest('docs'));
 }
